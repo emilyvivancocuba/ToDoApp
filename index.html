@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test de getElement By Id</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="fijo">
+					<h1 class="text-center">TODO APP</h1>
+					<textarea id="textarea" placeholder="Añade tu nueva tarea" rows="6"></textarea>
+					<br>
+					<button type="button" 
+							class="btn btn-primary" 
+							id="btn-add-tarea"
+							onclick="tasks()">+ Añadir tarea</button>
+				</div>
+				<div class="enlistado">
+					<div id="lista_tareas">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
