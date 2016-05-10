@@ -24,3 +24,11 @@
 .enlistado{
 	margin-top: 350px;
 }
+h1{
+	background-color: #ccc;
+	width: 100%;
+}
+.tachos{
+	margin-top: -7px;
+	float: right;
+}

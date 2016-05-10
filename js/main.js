@@ -12,7 +12,6 @@ function doTarea(task) {
 
     //Agregar elementos a lista_tareas
     lista_tareas.appendChild(elemento);
-
     var deleteIcon = createIcon();
     elemento.appendChild(deleteIcon);
 }
@@ -24,8 +23,7 @@ function clean () {
 function createIcon(){
     var icono=document.createElement('input');
     icono.type="button";
-    icono.style.marginTop="4px";
-    icono.style.float="right";
+    icono.className="tachos";
     icono.value='<>';
     icono.classList.add("removeTodo", "btn", "btn-danger");
     icono.onclick=function(){ 
