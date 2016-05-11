@@ -16,10 +16,10 @@ function doTarea(task) {
     checkbox.type='checkbox';
     checkbox.className='checkbox';
     checkbox.onchange=function(){
-        if (checkbox.checked==1) {
-            parrafo.className='tachado';
+        if (checkbox.checked) {
+            parrafo.classList.add('tachado');
         }else{
-            parrafo.className='normal';
+            parrafo.classList.remove('tachado');
         }
     }
 

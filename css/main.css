@@ -39,3 +39,9 @@ h1{
 .normal{
 	text-decoration: none;
 }
+.added span{
+	float: right;
+}
+.added input{
+	float: left;
+}
