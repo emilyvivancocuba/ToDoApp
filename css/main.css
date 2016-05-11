@@ -20,6 +20,7 @@
 	background-color: white;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
+	z-index: 1000;
 }
 .enlistado{
 	margin-top: 350px;
@@ -31,4 +32,10 @@ h1{
 .tachos{
 	margin-top: -7px;
 	float: right;
+}
+.tachado{
+	text-decoration: line-through;
+}
+.normal{
+	text-decoration: none;
 }
